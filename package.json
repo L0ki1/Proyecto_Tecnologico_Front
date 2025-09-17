@@ -1,7 +1,6 @@
 {
   "name": "tec",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -11,5 +10,6 @@
   },
   "keywords": [],
   "author": "Jesus Alexis - Mariela",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "Sistema escolar con SASS"
 }
