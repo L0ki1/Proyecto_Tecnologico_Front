@@ -16,7 +16,7 @@
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
-  --white: #fff;
+  --white: #ffffffff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #17a2b8;
@@ -195,6 +195,19 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+
+
+.img-fluid {
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease; 
+    cursor: pointer; 
+}
+
+.img-fluid:active {
+    box-shadow: 0 0 20px rgba(12, 144, 225, 0.7);
+    transform: scale(0.98); 
+}
+
 
 svg {
   overflow: hidden;
