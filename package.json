@@ -11,5 +11,8 @@
   "keywords": [],
   "author": "Jesus Alexis - Mariela",
   "license": "ISC",
-  "description": "Sistema escolar con SASS"
+  "description": "Sistema escolar con SASS",
+  "dependencies": {
+    "sass": "^1.92.1"
+  }
 }
