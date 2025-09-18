@@ -6,7 +6,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "css":"sass scss/style.scss css/style.css"
   },
   "keywords": [],
   "author": "Jesus Alexis - Mariela",
