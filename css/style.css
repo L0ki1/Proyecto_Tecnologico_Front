@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Handlee", cursive;
   font-weight: bold;
   line-height: 1.2;
-  color: #00394f;
+  color: #f2f4f5;
 }
 
 h1, .h1 {
@@ -9013,7 +9013,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #00394f !important;
+  color: #e9ecef !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9199,6 +9199,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
 /********** Custom CSS ************/
 .section-title {
   position: relative;
@@ -9246,18 +9247,22 @@ a.text-dark:hover, a.text-dark:focus {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-15px);
   }
 }
+
 @keyframes action {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-15px);
   }
 }
+
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
   color: #00394f;
@@ -9274,6 +9279,7 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 10px 15px;
   }
 }
+
 .post-carousel .owl-nav {
   position: absolute;
   width: 100%;
@@ -9357,5 +9363,111 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   list-style-type: none;
 }
+
+/*# sourceMappingURL=style.css.map */
+
+
+.footer-section {
+  margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+  color: #e9ecef !important;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.footer-section h5 {
+  color: #ffffff !important;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.footer-contact-item .fa {
+  color: #17a2b8;
+  margin-right: 15px;
+  margin-top: 3px;
+  font-size: 1.2rem;
+  min-width: 20px;
+}
+
+.footer-contact-content p {
+  margin-bottom: 0.25rem;
+  color: #e9ecef;
+}
+
+
+.footer-horarios-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.footer-horarios-item .fa {
+  color: #000;
+  margin-right: 15px;
+  margin-top: 3px;
+  font-size: 1.2rem;
+  min-width: 20px;
+}
+
+.footer-horarios-content p {
+  margin-bottom: 0.25rem;
+  color: #e9ecef;
+}
+
+
+/* Footer adjustments for 4 equal containers under title */
+.bg-secondary .row.pt-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-secondary .row.pt-5 > div,
+.bg-secondary .row.pt-5 .footer-horarios-item {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Social media icons in white */
+.bg-secondary .btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.bg-secondary .btn-outline-primary i {
+  color: #fff;
+}
+
+.bg-secondary .btn-outline-primary:hover {
+  background-color: #fff;
+  color: #00394f;
+  border-color: #fff;
+}
+
+.bg-secondary .btn-outline-primary:hover i {
+  color: #00394f;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .footer-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .footer-contact-item {
+    margin-bottom: 1rem;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
