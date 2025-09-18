@@ -2520,13 +2520,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #00394f;
-  border-color: #00394f;
+  color: #ebedee;
+  border-color: #e3e5e6;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #00394f;
-  border-color: #00394f;
+  background-color: #a4ffff;
+  border-color: #f5fac1;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 57, 79, 0.5);
