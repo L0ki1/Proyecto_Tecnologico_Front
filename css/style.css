@@ -9392,24 +9392,7 @@ a.text-dark:hover, a.text-dark:focus {
 .footer-contact-content p {
   margin-bottom: 0.25rem;
   color: #e9ecef;
-  /*flex: 1;*/
 }
-
-.footer-contact-item .fas {
-  color: #17a2b8;
-  margin-right: 15px;
-  margin-top: 3px;
-  font-size: 1.2rem;
-  min-width: 20px;
-  flex-shrink: 0; /* Evita que el icono se encoja */
-}
-
-
-.footer-contact-content h5 {
-  margin-bottom: 0.25rem;
-  color: #ffffff !important;
-}
-
 
 .footer-horarios-item {
   display: flex;
