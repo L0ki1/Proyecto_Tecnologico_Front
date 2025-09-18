@@ -7,6 +7,16 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+```css
+@charset "UTF-8";
+
+/******* Bootstrap Theming ********/
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -11154,6 +11164,40 @@ a.text-dark:focus {
   text-decoration: underline;
 }
 
+/* Footer adjustments for 4 equal containers under title */
+.bg-secondary .row.pt-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-secondary .row.pt-5 > div,
+.bg-secondary .row.pt-5 .footer-horarios-item {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Social media icons in white */
+.bg-secondary .btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.bg-secondary .btn-outline-primary i {
+  color: #fff;
+}
+
+.bg-secondary .btn-outline-primary:hover {
+  background-color: #fff;
+  color: #00394f;
+  border-color: #fff;
+}
+
+.bg-secondary .btn-outline-primary:hover i {
+  color: #00394f;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .footer-section {
@@ -11164,3 +11208,4 @@ a.text-dark:focus {
     margin-bottom: 1rem;
   }
 }
+```
