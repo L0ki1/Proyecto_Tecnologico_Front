@@ -1,15 +1,4 @@
 @charset "UTF-8";
-
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-```css
-@charset "UTF-8";
-
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -401,7 +390,7 @@ h6,
   font-family: "Handlee", cursive;
   font-weight: bold;
   line-height: 1.2;
-  color: #00394f;
+  color: #f7fdff;
 }
 
 h1,
@@ -11090,7 +11079,7 @@ a.text-dark:focus {
 }
 
 .footer-section h3 {
-  color: #17a2b8 !important;
+  color: #e9ecef !important;
   margin-bottom: 1.5rem;
   font-size: 1.25rem;
   font-weight: bold;
@@ -11141,28 +11130,6 @@ a.text-dark:focus {
   color: #e9ecef;
 }
 
-.copyright-section {
-  border-top: 1px solid rgba(23, 162, 184, 0.2);
-  padding-top: 2rem;
-  margin-top: 3rem;
-}
-
-.copyright-text {
-  text-align: center;
-  color: #e9ecef;
-  margin: 0;
-}
-
-.copyright-text a {
-  color: #17a2b8;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.copyright-text a:hover {
-  color: #0f6674;
-  text-decoration: underline;
-}
 
 /* Footer adjustments for 4 equal containers under title */
 .bg-secondary .row.pt-5 {
@@ -11208,4 +11175,3 @@ a.text-dark:focus {
     margin-bottom: 1rem;
   }
 }
-```
