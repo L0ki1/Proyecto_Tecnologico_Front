@@ -1,7 +1,8 @@
 /******* Bootstrap Theming ********/
-
 $primary: #00394f;
 $secondary: #00394f;
+$info: #17a2b8;
+$black: #000;
 
 $theme-colors: (
     "primary": $primary,
@@ -25,7 +26,6 @@ $border-radius: 5px;
 $btn-border-radius: 30px;
 
 @import "bootstrap/scss/bootstrap";
-
 
 /********** Custom CSS ************/
 
@@ -190,4 +190,59 @@ $btn-border-radius: 30px;
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.footer-section {
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    color: #e9ecef !important;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer-section h5 {
+    color: #ffffff !important;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.footer-contact-item .fa {
+    color: $info;
+    margin-right: 15px;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    min-width: 20px;
+}
+
+.footer-contact-content p {
+    margin-bottom: 0.25rem;
+    color: #e9ecef;
+}
+
+.footer-horarios-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.footer-horarios-item .fa {
+    color: $black;
+    margin-right: 15px;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    min-width: 20px;
+}
+
+.footer-horarios-content p {
+    margin-bottom: 0.25rem;
+    color: #e9ecef;
 }

@@ -6,13 +6,13 @@
     "lib": "lib"
   },
   "scripts": {
-      "css": "sass scss/style.scss css/style.css --no-source-map"
+    "css": "sass scss/style.scss css/style.css --no-source-map"
   },
   "keywords": [],
   "author": "Jesus Alexis - Mariela",
   "license": "ISC",
   "description": "Sistema escolar con SASS",
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "^5.3.8",
     "sass": "^1.92.1"
   }
