@@ -6,7 +6,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "css": "sass scss/style.scss css/style.css --no-source-map"
+    "css": "sass scss/style.scss css/style.css"
   },
   "keywords": [],
   "author": "Jesus Alexis - Mariela",

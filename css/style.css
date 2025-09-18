@@ -60,7 +60,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #f9f9f9;
+  color: #666666;
   text-align: left;
   background-color: #fff;
 }
@@ -9013,7 +9013,6 @@ button.bg-dark:focus {
 }
 
 .text-primary {
- /* color: #e9ecef !important;*/
   color: #00394f !important;
 }
 
@@ -9200,7 +9199,6 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
 /********** Custom CSS ************/
 .section-title {
   position: relative;
@@ -9248,22 +9246,18 @@ a.text-dark:hover, a.text-dark:focus {
   0% {
     transform: translateY(0);
   }
-
   100% {
     transform: translateY(-15px);
   }
 }
-
 @keyframes action {
   0% {
     transform: translateY(0);
   }
-
   100% {
     transform: translateY(-15px);
   }
 }
-
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
   color: #00394f;
@@ -9280,7 +9274,6 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 10px 15px;
   }
 }
-
 .post-carousel .owl-nav {
   position: absolute;
   width: 100%;
@@ -9365,9 +9358,6 @@ a.text-dark:hover, a.text-dark:focus {
   list-style-type: none;
 }
 
-/*# sourceMappingURL=style.css.map */
-
-
 .footer-section {
   margin-bottom: 2rem;
 }
@@ -9404,7 +9394,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #e9ecef;
 }
 
-
 .footer-horarios-item {
   display: flex;
   align-items: flex-start;
@@ -9423,52 +9412,5 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 0.25rem;
   color: #e9ecef;
 }
-
-
-/* Footer adjustments for 4 equal containers under title */
-.bg-secondary .row.pt-5 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.bg-secondary .row.pt-5 > div,
-.bg-secondary .row.pt-5 .footer-horarios-item {
-  flex: 0 0 25%;
-  max-width: 25%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-/* Social media icons in white */
-.bg-secondary .btn-outline-primary {
-  color: #fff;
-  border-color: #fff;
-}
-
-.bg-secondary .btn-outline-primary i {
-  color: #fff;
-}
-
-.bg-secondary .btn-outline-primary:hover {
-  background-color: #fff;
-  color: #00394f;
-  border-color: #fff;
-}
-
-.bg-secondary .btn-outline-primary:hover i {
-  color: #00394f;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-  .footer-section {
-    margin-bottom: 2.5rem;
-  }
-
-  .footer-contact-item {
-    margin-bottom: 1rem;
-  }
-}
-
 
 /*# sourceMappingURL=style.css.map */
